@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayoutSpielen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/snake_standard"
+    tools:context=".Spielen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:src="@drawable/ic_baseline_emoji_events_24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp">
+        </ImageView>
+        <TextView
+            android:id="@+id/txthighScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" x 50000000"
+            android:textColor="@color/black"
+            android:layout_marginStart="5dp">
+        </TextView>
+        <ImageView
+            android:src="@drawable/ic_baseline_adjust_24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="55dp">
+        </ImageView>
+        <TextView
+            android:id="@+id/txtScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" x 0 "
+            android:textColor="@color/black"
+            android:layout_marginStart="5dp">
+        </TextView>
+        <ImageView
+            android:src="@drawable/ic_baseline_access_time_24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp">
+        </ImageView>
+        <TextView
+            android:id="@+id/txtTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginStart="5dp"
+            android:text=" 0:00 ">
+        </TextView>
+
+    </LinearLayout>
+
+
+    <com.example.snake.GameView
+        android:id="@+id/GameView"
+        android:layout_width="match_parent"
+        android:layout_height="440dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp">
+    </com.example.snake.GameView>
+    <ImageButton
+        android:id="@+id/buttonStart"
+        android:src="@drawable/ic_baseline_play_circle_filled_24_96"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true">
+    </ImageButton>
+    <ImageButton
+        android:id="@+id/buttonStartAfterPause"
+        android:src="@drawable/ic_baseline_play_circle_filled_24_96"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true">
+    </ImageButton>
+
+    <RelativeLayout
+        android:id="@+id/rl_game_over"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible">
+
+
+        <TextView
+            android:id="@+id/txtGameOver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="70dp"
+            android:fontFamily="@font/chickencripsy"
+            android:text="GAME OVER"
+            android:textColor="@color/black"
+            android:textSize="50sp">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/editPersonName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtGameOver"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name"
+            android:textColor="@color/black" />
+
+        <ListView
+            android:id="@+id/listViewAchievements"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_below="@+id/editPersonName"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="30dp"
+            android:background="@drawable/list_view_back" />
+
+        <ImageButton
+            android:id="@+id/buttonReset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/listViewAchievements"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="70dp"
+            android:src="@drawable/ic_baseline_sync_24"></ImageButton>
+
+        <ImageButton
+            android:id="@+id/buttonBeendet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/buttonReset"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/ic_baseline_cancel_24_red">
+
+        </ImageButton>
+
+
+    </RelativeLayout>
+
+    <GridLayout
+        android:id="@+id/GridLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/GameView"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="0dp"
+        android:columnCount="3"
+        android:rowCount="3">
+
+        <ImageButton
+            android:id="@+id/buttonUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:src="@drawable/ic_baseline_arrow_circle_up_24"
+            android:text="UP"></ImageButton>
+
+        <ImageButton
+            android:id="@+id/buttonLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:src="@drawable/ic_outline_arrow_circle_left_24"
+            android:text="LEFT"></ImageButton>
+
+        <ImageButton
+            android:id="@+id/buttonRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:src="@drawable/ic_outline_arrow_circle_right_24"
+            android:text="RIGHT"></ImageButton>
+
+        <ImageButton
+            android:id="@+id/buttonDown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:src="@drawable/ic_outline_arrow_circle_down_24"
+            android:text="DOWN"></ImageButton>
+
+    </GridLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_pause_mute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/GameView"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="300dp">
+
+        <ImageButton
+            android:id="@+id/buttonPause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/ic_baseline_pause_circle_outline_24"
+            android:text="PAUSE"></ImageButton>
+
+        <ImageButton
+            android:id="@+id/buttonEinstellungen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/buttonPause"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginEnd="20dp"
+            android:src="@drawable/ic_baseline_settings_24"
+            android:text="MUTE"></ImageButton>
+    </RelativeLayout>
+</RelativeLayout>

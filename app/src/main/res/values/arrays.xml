@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="highscores">
+        <item>"Harald 50000000 Pkt"</item>
+        <item>"TestPerson1 1034 Pkt"</item>
+        <item>"TestPerson2 507 Pkt"</item>
+    </string-array>
+
+
+
+
+
+
+
+
+
+</resources>

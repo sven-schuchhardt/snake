@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">Snake</string>
+
+    <string-array name="arrayDesign">
+        <item>Standard Mode</item>
+        <item>Retro Mode</item>
+        <item>Dark Mode</item>
+    </string-array>
+
+    <string name="hilfeTextString">
+        <item><b>\Das Spielprinzip:\</b>
+        \nIm Spiel Snake spielen Sie eine Schlange, welche Sie mit Pfeiltasten auf dem Spielfeld
+        steuern koennen.</item>
+        <item>\n\nSpielstart:
+        \nUm das Spiel zu starten muessen Sie ein Mal auf das Spielfeld druecken, wenn Sie dies
+        getan haben, erscheint ein Countdown, nach welchem sich das Spiel startet.</item>
+        <item>\n\nSteuerung:
+        \nUm die Schlange ueber das Spielfeld zu steuern, benutzen Sie die Pfeiltasten, welche sich
+        unten rechts auf dem Spielscreen befinden (oder unten links, wenn sie in den Einstellungen
+        denLinkshaender Modus eingeschaltet haben).
+        \nWenn Sie links unten den Pause Button betaetigen, stoppt das Spiel und Sie haben die
+        Moeglichkeit, eine Pause zu machen, oder noch einmal in die Einstellungen zu gehen und
+        Aengerungen vorzunehmen oder Sie koennen auf den Hilfe Screen wechseln, welchen Sie gerade
+        sehen, um sich noch einmal anzugucken, wie die Steuerung funktioniert. Wenn sie das Spiel
+        wieder fortsetzen moechten, druecken Sie einfach auf den Fortsetzen-Button und ein Countdown
+        startet nach welchem das Spiel wieder dort fortsetzt, wo sie aufgehoert haben.</item>
+        <item>\n\nSpielregeln:
+        \nDie wichtigste Regel des Spieles ist es, Sie duerfen nicht sich selbst, also die Schlange
+        oder eine Wand beruehren, denn sonst ist das Spiel beendet.
+        \nUm Ihren Score zu erhoehen muessen Sie Items einsammeln, welche Ihren Score um 1 erhoehen,
+        aber auch Ihre Schlange verlaengern.</item>
+        <item>\n\nSpielende:
+        \nWenn Sie das Spiel beendet haben glenagen Sie auf einen neuen Bildschirm, auf welchem
+        Ihnen Ihr finaler Score angezeigt wird. Sie haben nun die Moeglichkeit ein Kuerzel einzugeben,
+        um sie eventuell mit Ihren Freunden zu vergleichen, wenn diese bei Ihnen spielen. Wenn Sie
+        Ihr Kuerzel eingegeben haben, haben Sie die Moegichkeit das Spiel zu beenden, und auf den
+        Startbildschirm zurueck zu kehren oder das Spiel erneut zu starten, indem Sie auf den Erneut
+        Spielen-Button druecken.</item>
+
+    </string>
+
+    <string-array name="hilfeText">
+        <item><b>Das Spielprinzip:</b>
+        \nIm Spiel Snake spielen Sie eine Schlange, welche Sie mit Pfeiltasten auf dem Spielfeld
+        steuern koennen.</item>
+        <item>\n\nSpielstart:
+        \nUm das Spiel zu starten muessen Sie ein Mal auf das Spielfeld druecken, wenn Sie dies
+        getan haben, erscheint ein Countdown, nach welchem sich das Spiel startet.</item>
+        <item>\n\nSteuerung:
+        \nUm die Schlange ueber das Spielfeld zu steuern, benutzen Sie die Pfeiltasten, welche sich
+        unten rechts auf dem Spielscreen befinden (oder unten links, wenn sie in den Einstellungen
+        denLinkshaender Modus eingeschaltet haben).
+        \nWenn Sie links unten den Pause Button betaetigen, stoppt das Spiel und Sie haben die
+        Moeglichkeit, eine Pause zu machen, oder noch einmal in die Einstellungen zu gehen und
+        Aengerungen vorzunehmen oder Sie koennen auf den Hilfe Screen wechseln, welchen Sie gerade
+        sehen, um sich noch einmal anzugucken, wie die Steuerung funktioniert. Wenn sie das Spiel
+        wieder fortsetzen moechten, druecken Sie einfach auf den Fortsetzen-Button und ein Countdown
+        startet nach welchem das Spiel wieder dort fortsetzt, wo sie aufgehoert haben.</item>
+        <item>\n\nSpielregeln:
+        \nDie wichtigste Regel des Spieles ist es, Sie duerfen nicht sich selbst, also die Schlange
+        oder eine Wand beruehren, denn sonst ist das Spiel beendet.
+        \nUm Ihren Score zu erhoehen muessen Sie Items einsammeln, welche Ihren Score um 1 erhoehen,
+        aber auch Ihre Schlange verlaengern.</item>
+        <item>\n\nSpielende:
+        \nWenn Sie das Spiel beendet haben glenagen Sie auf einen neuen Bildschirm, auf welchem
+        Ihnen Ihr finaler Score angezeigt wird. Sie haben nun die Moeglichkeit ein Kuerzel einzugeben,
+        um sie eventuell mit Ihren Freunden zu vergleichen, wenn diese bei Ihnen spielen. Wenn Sie
+        Ihr Kuerzel eingegeben haben, haben Sie die Moegichkeit das Spiel zu beenden, und auf den
+        Startbildschirm zurueck zu kehren oder das Spiel erneut zu starten, indem Sie auf den Erneut
+        Spielen-Button druecken.</item>
+
+    </string-array>
+
+</resources>
